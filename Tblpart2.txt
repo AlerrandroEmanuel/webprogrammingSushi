@@ -1,0 +1,52 @@
+Bloco 1 – Estrutura e Organização
+1. Vocês usaram as mesmas classes para estruturar o cartão? Se não, quais foram as diferenças?
+Não usamos, teve diferença de estruturação de onde colocar classes, eu usei na maioria das divs que comportavam os seletores, só não no link dos seletor "<a", diferentemente do dele que usou na div que comporta toda a parte do card e em um alista em especifico.
+
+2. Algum de vocês usou mais classes do que o outro? Por quê?
+Eu utilizei mais classe para manipular mais as coisas e melhor cada item das coisas.
+
+3. A organização do HTML ficou parecida ou diferente? O que cada um fez de forma distinta?
+Ficou parecida, a única diferença foi na estilização no html que utilizei, usei mais div para a melhor manipulação e o botão ele usou o comando "button" e eu usei "a".
+
+4. Alguém utilizou id para estilização? Se sim, por que escolheu essa abordagem?
+Ninguém usou pois havia uma restrição de não utilizar "id", então recorremos ao uso de "class".
+
+Bloco 2 – Decisões de Layout
+5. Como cada um centralizou o cartão? Qual técnica foi usada?
+Eu centralizei na body utilizando o display grid e justify content center, sendo assim meu card foi parar no meio, já o Filipe utilizou o display flex, determinei o sentido do flex para coluna, ajustei o conteúdo e os itens dentro do cartão para centro.
+
+6. Alguém teve dificuldade para centralizar? O que precisou ajustar?
+Sim tive dificuldade, pois quando utilizei o flex, não se tinha uma estrutura legal, então acabei testando outros sem usar o flexbox, o grid foi a minha solução de resto foi mais maleável devido a estilização estar ligada ao seletor especifico, envolvendo centralização de título, paragrafo e botão, na qual cada um tinha uma padronização basicamente semelhante.
+
+7. Onde cada um utilizou margin e onde utilizou padding? Houve diferença nas decisões?
+Eu usei margin somente no card, e padding no botão, lista e no card, o Filipe usou margin no card e na lista e padding no card, titulo, lista e botão.
+
+8. Se remover o padding do cartão, o que acontece visualmente? Ambos concordam?
+Ambos visualmente ficam estranhos, pois os textos se encontram no extremo do card. Ambos concordamos.
+
+
+Bloco 3 – Hierarquia Visual
+9. Como cada um destacou o botão?
+Cada um destacou botão colocando a cor de fundo na qual entrava em detrimento com o fundo do card, sendo assim o botão se destaca.
+
+10. A classe “destaque” foi aplicada da mesma forma? Se não, por que cada um fez diferente?
+Não foi aplicado da mesma maneira, o meu destaque foi aplicado no h1 com o intuito de mudar a cor do título e ter um destaque a mais das coisas e o Flipe usou destaque na lista usando negrito e sublinhado.
+
+11. O título principal recebeu algum tratamento especial? Qual foi a intenção da escolha?
+Sim, no meu eu coloquei coisas que não precisava já que o body já centralizava tudo, e o tratamento especial foi manejar o destaque mudando a cor do título, fiz isso para colocar o destaque em um local menos exigente de criatividade. O Filipe foi estilizando com um tom próximo do branco, marquei o peso do texto como bolder e mudei a família da fonte para ‘Gill Sans’.
+
+Bloco 4 – Reflexão Técnica
+12. Qual solução ficou mais organizada? Justifiquem tecnicamente.
+Ambos ficaram organizado, levando em consideração que necessitava em seu html, sendo assim exigia uma tipo de manipulação diferente no css, mas o meu css ficou um pouco menos organizado por usar muitas classes.
+
+13. Se precisassem adicionar outro cartão na página, qual das duas soluções seria mais fácil de reutilizar? Por quê?
+Acho que a minha solução, pois cada parte da estrutura leva contigo uma classe, caso tenha que reutilizar, já terá as características que foram deixadas nos css para um próximo card, só basta adicionar essas classes em suas respectivas estruturas.
+
+14. Qual erro ou dificuldade cada um encontrou individualmente?
+A maior dificuldade foi centralizar os elementos das coisas, como o card, o título, o texto e o botão e entre outros elementos.
+
+15. Após comparar os dois códigos, o que você faria diferente se fosse começar de novo?
+Eu iria colocar uma div no título.
+
+16. Escrevam uma melhoria que decidiram aplicar após a conversa.
+O meu foi retirar os comandos de centralizar do h1, pois fica redundante e tem mais coisas a se processar no código, levando em consideração a otimização.
