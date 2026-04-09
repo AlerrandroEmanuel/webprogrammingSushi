@@ -1,0 +1,10 @@
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* uso de fr */
+    gap: 20px;
+}
+
+.card {
+    padding: 20px;
+    background: lightgray;
+}

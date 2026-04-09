@@ -1,0 +1,51 @@
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 0, 0);
+}
+
+p {
+    color: rgb(0, 0, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.lista {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.amogus {
+    size: 10%;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+img {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+a {
+    color: rgb(255, 0, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+
+

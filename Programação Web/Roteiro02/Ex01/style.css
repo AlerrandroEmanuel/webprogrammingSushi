@@ -1,0 +1,6 @@
+.menu {
+    display: flex;
+    justify-content: center; /* centralizar */
+    gap: 20px; /* espaçamento */
+    list-style: none;
+}

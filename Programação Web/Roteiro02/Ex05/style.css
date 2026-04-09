@@ -1,0 +1,68 @@
+header {
+    height: 10vh;
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dashboard {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+}
+
+
+.menu ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    list-style: none;
+}
+
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+
+.card {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+
+.card1 { background: red; }
+.card2 { background: blue; }
+.card3 { background: green; }
+.card4 { background: orange; }
+.card5 { background: purple; }
+.card6 { background: teal; }
+
+
+.card:hover {
+    opacity: 0.7;
+}
+
+
+@media (max-width: 768px) {
+
+    .dashboard {
+        grid-template-columns: 1fr;
+    }
+
+    .menu ul {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .cards {
+        grid-template-columns: 1fr;
+    }
+}
